@@ -1,0 +1,183 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+/* Global styles */
+a,
+a:hover,
+a:focus,
+input,
+button,
+textarea,
+button:hover,
+button:focus {
+outline: none;
+text-decoration: none;
+}
+
+html {
+font-size: 62.5%;
+overflow-x: hidden;
+scroll-padding-top: 9rem;
+scroll-behavior: smooth;
+}
+
+body {
+overflow: hidden;
+font: 400 14px/1.5 "Poppins", sans-serif;
+color: #252525;
+}
+
+img {
+max-width: 100%;
+height: 100%;
+}
+
+a {
+transition: all 0.3s linear;
+}
+
+/* Home section */
+.home-container {
+background-color: #9f0d1b;
+height: 838px;
+}
+
+.home-container .navbar a.navbar-brand {
+color: #fff;
+font-size: 26px;
+font-weight: bold;
+}
+
+.home-container .navbar-nav .nav-link {
+font: 700 22px/1.18 "Lato", sans-serif;
+color: #fff;
+}
+
+.book-now-btn,
+.book-now {
+width: 381px;
+height: 72px;
+background-color: #e3ae6f;
+border: 1px solid transparent;
+border-radius: 10px;
+font: 700 22px/1.18 "Lato", sans-serif;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+.book-now:hover,
+.book-now:focus,
+.book-now-btn:hover,
+.book-now-btn:focus {
+background-color: transparent;
+color: #e3ae6f;
+border-color: #e3ae6f;
+}
+
+.home-container .home-left h3 {
+font: 400 50px/1.28 "Lustria", serif;
+color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.home-container .img8 {
+height: 229.6px;
+top: 240px;
+right: 0;
+opacity: 0.4;
+}
+
+.home-container .img7 {
+height: 539px;
+top: 411px;
+right: 187px;
+z-index: 10;
+}
+
+.home-container .img6 {
+height: 282px;
+top: 668px;
+right: 439px;
+z-index: 20;
+}
+
+.home-container .img5 {
+height: 180.18px;
+top: 747.97px;
+right: 335px;
+z-index: 20;
+}
+
+.home-container .img4 {
+height: 163.68px;
+top: 535.34px;
+right: 788px;
+}
+
+.home-container .img3 {
+height: 234.59px;
+top: 639.29px;
+right: 96px;
+z-index: 5;
+}
+
+.home-container .img2 {
+width: 156.37px;
+height: 171.8px;
+left: 0;
+top: 580px;
+}
+
+.home-container .img1 {
+width: 69.92px;
+height: 76.82px;
+left: -14px;
+top: 570.34px;
+}
+
+/* market section */
+.market-container {
+  background-color: #f1f1f1;
+  height: 915px;
+}
+
+.market-container h3 {
+  font-family: "Lustria", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 157%;
+  color: #313334;
+  position: relative;
+  z-index: 11;
+}
+
+.market-container .card-text, .market-container .card-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: #313334;
+}
+
+.market-container .card-title {
+  font-weight: 900;
+  font-size: 22px;
+  position: relative;
+  z-index: 2;
+}
+
+.market-container .card .num {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
